@@ -85,6 +85,19 @@ h1 {
   transform: scale(1.1);
 }
 
+.seed-img {
+  width: 60px;
+  height: 60px;
+  image-rendering: pixelated;
+  display: block;
+  margin: 0 auto;
+}
+
+.control-panel .seed-img {
+  width: 30px;
+  height: 30px;
+}
+
 .seed-sprite {
   width: 60px;
   height: 60px;
@@ -259,7 +272,6 @@ button:hover {
 
 .seed {
   position: relative;
-  /* остальные стили остаются без изменений */
 }
 
 .seed:hover .tooltip {
@@ -318,10 +330,10 @@ button:hover {
 
 .seed-option-tooltip {
   position: absolute;
-  right: 100%; /* Появляется слева */
+  right: 100%;
   top: 50%;
   transform: translateY(-50%);
-  margin-right: 10px; /* Отступ от элемента */
+  margin-right: 10px;
   background-color: #1d3a20;
   border: 3px solid #f2e8cf;
   padding: 10px;
@@ -329,7 +341,7 @@ button:hover {
   z-index: 100;
   display: none;
   font-size: 0.6rem;
-  box-shadow: -4px 4px 0px rgba(0, 0, 0, 0.3); /* Тень с другой стороны */
+  box-shadow: -4px 4px 0px rgba(0, 0, 0, 0.3);
   pointer-events: none;
   text-align: left;
 }
@@ -342,7 +354,7 @@ button:hover {
   transform: translateY(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent transparent #f2e8cf; /* Стрелка теперь справа */
+  border-color: transparent transparent transparent #f2e8cf;
 }
 
 .seed-option:hover .seed-option-tooltip {
@@ -373,33 +385,37 @@ button:hover {
 
 .x-btn {
   position: absolute;
-  top: -5px;
-  right: 10px;
+  top: -3px;
+  right: 15px;
   background: #000;
-  color: white;
   border: none;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s;
   text-decoration: none;
+  padding: 1px;
+  box-shadow: 0 0 0 2px #f2e8cf;
 }
 
 .x-btn:hover {
   background: #222;
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.1);
+  box-shadow: 0 0 0 2px #bc4749;
 }
 
-.x-btn svg {
-  width: 20px;
-  height: 20px;
+.x-btn img {
+  width: 27px;
+  height: 27px;
+  object-fit: contain;
   transition: transform 0.3s;
+  image-rendering: pixelated;
 }
 
-.x-btn:hover svg {
-  transform: scale(1.2);
+.x-btn:hover img {
+  transform: scale(1.1);
 }
