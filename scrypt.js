@@ -45,21 +45,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Fake usernames
   const fakeUsernames = [
-    "plantlord.sol",
-    "0xDEED",
-    "root.eth",
-    "seedling.x",
-    "garden.dao",
-    "0xGREEN",
-    "soil.sol",
-    "leaf.eth",
-    "pixel.garden",
-    "crypto.plant",
-    "0xSEED",
-    "grower.eth",
-    "plantpunk.sol",
-    "soilpunk.x",
-    "herb.eth",
+    " 8GzB9...4k",
+    "D5eUN...GR",
+    "4Txzt...4D",
+    "9Ptd2...PZ",
+    "7LCeo...Pa",
+    "HrEiM...XW",
+    "BrxqD...Qh",
+    "Ez7dA...dM",
+    "6Tn1W...Bd",
+    "FbMpx...nN",
+    "2uRhX...5n",
+    "HhvPA...XL",
+    "5aBN3...HF",
+    "7ZdUp...9Y",
+    "CpN3H...gS",
   ];
 
   // Generate random seeds on load

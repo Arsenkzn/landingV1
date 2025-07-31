@@ -29,22 +29,20 @@
 
       <div class="main-content">
         <div class="garden-grid" id="gardenGrid">
-          <!-- Seeds will be generated here -->
-        </div>
+          </div>
 
         <div class="control-panel">
           <h2>PLANT YOUR SEED</h2>
 
           <div id="seedOptions">
 <div class="seed-option" data-seed="luckberry">
-  <!-- Заменяем прямой SVG на base64, как у других -->
   <img 
     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMjYgMTZDMjYgMjIgMTYgMzAgMTYgMzBTNiAyMiA2IDE2QTEwIDEwIDAgMCAxIDE2IDZBMTAgMTAgMCAwIDEgMjYgMTZaIiBmaWxsPSIjM2E2YzJhIi8+CiAgPHBhdGggZD0iTTI0IDE2QzI0IDIxIDE2IDI3IDE2IDI3UzggMjEgOCAxNkE4IDggMCAwIDEgMTYgOEE4IDggMCAwIDEgMjQgMTZaIiBmaWxsPSIjMmE1YzFhIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjE0IiB3aWR0aD0iNCIgaGVpZ2h0PSI0IiByeD0iMiIgZmlsbD0iIzBhMmQwYSIvPgogIDxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzVhOGMzYSIvPgogIDxyZWN0IHg9IjIxIiB5PSIxMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzVhOGMzYSIvPgogIDxyZWN0IHg9IjEwIiB5PSIyMSIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzVhOGMzYSIvPgogIDxyZWN0IHg9IjIxIiB5PSIyMSIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzVhOGMzYSIvPgo8L3N2Zz4=" 
     class="seed-icon" 
   />
-  <div class="seed-desc">🍀 Luckberry</div>
+  <div class="seed-desc">Luckberry</div>
   <div class="seed-option-tooltip">
-    <div class="tooltip-title">🍀 LUCKBERRY</div>
+    <div class="tooltip-title">LUCKBERRY</div>
     <div class="tooltip-desc">Sprouts in random spots. Grows faster during chaos.</div>
     <div class="tooltip-personality">Unpredictable, playful</div>
   </div>
@@ -70,9 +68,9 @@
                   fill="#ff9e9e"
                 />
               </svg>
-              <div class="seed-desc">❤️ Heartseed</div>
+              <div class="seed-desc">Heartseed</div>
               <div class="seed-option-tooltip">
-                <div class="tooltip-title">❤️ HEARTSEED</div>
+                <div class="tooltip-title">HEARTSEED</div>
                 <div class="tooltip-desc">
                   Beats like a pulse. Bonds with nearby seeds.
                 </div>
@@ -100,9 +98,9 @@
                   fill="#fffacd"
                 />
               </svg>
-              <div class="seed-desc">🌟 Fortuna Sprout</div>
+              <div class="seed-desc">Fortuna Sprout</div>
               <div class="seed-option-tooltip">
-                <div class="tooltip-title">🌟 FORTUNA SPROUT</div>
+                <div class="tooltip-title">FORTUNA SPROUT</div>
                 <div class="tooltip-desc">
                   Born from pure chance. Sometimes doubles.
                 </div>
@@ -127,9 +125,9 @@
                 />
                 <path d="M12 16L16 12L20 16L16 20Z" fill="#aa88ff" />
               </svg>
-              <div class="seed-desc">🔮 Dreamroot</div>
+              <div class="seed-desc">Dreamroot</div>
               <div class="seed-option-tooltip">
-                <div class="tooltip-title">🔮 DREAMROOT</div>
+                <div class="tooltip-title">DREAMROOT</div>
                 <div class="tooltip-desc">
                   Grows while you rest. Feeds on dreams.
                 </div>
@@ -143,9 +141,9 @@
     <path d="M24 16C24 21 16 27 16 27S8 21 8 16A8 8 0 0 1 16 8A8 8 0 0 1 24 16Z" fill="#f49336"/>
     <path d="M16 12L18 16L16 20L14 16Z" fill="#fbc187"/>
   </svg>
-  <div class="seed-desc">🔥 Sparkleaf</div>
+  <div class="seed-desc">Sparkleaf</div>
   <div class="seed-option-tooltip">
-    <div class="tooltip-title">🔥 SPARKLEAF</div>
+    <div class="tooltip-title">SPARKLEAF</div>
     <div class="tooltip-desc">Ignites others with inspiration. Burns fast.</div>
     <div class="tooltip-personality">Intense, creative</div>
   </div>
@@ -154,7 +152,8 @@
           <input
             type="text"
             id="usernameInput"
-            placeholder="yourname.sol (optional)"
+            placeholder="your sol adress"
+            style="text-align: center"
           />
 
           <button id="plantButton">PLANT YOUR SEED</button>
@@ -165,48 +164,43 @@
         <h2 class="lore-title">SEED LORE</h2>
 
         <div class="lore-item" style="border-left-color: #80c975">
-          <h3><span>🍀</span> LUCKBERRY</h3>
+          <h3><LUCKBERRY>LUCKBERRY</h3>
           <p>
             Sprouts in random spots. Grows faster during chaos. You don't find
             it — it finds you.
           </p>
-          <p><strong>Color:</strong> Light Green</p>
           <p>
             <strong>Personality:</strong> Unpredictable, playful, contagious
           </p>
         </div>
 
         <div class="lore-item" style="border-left-color: #cc4242">
-          <h3><span>❤️</span> HEARTSEED</h3>
+          <h3>HEARTSEED</h3>
           <p>
             Beats like a pulse. Bonds with nearby seeds and helps them grow
             stronger.
           </p>
-          <p><strong>Color:</strong> Red</p>
           <p><strong>Personality:</strong> Warm, steady, protective</p>
         </div>
 
         <div class="lore-item" style="border-left-color: #e8c900">
-          <h3><span>🌟</span> FORTUNA SPROUT</h3>
+          <h3>FORTUNA SPROUT</h3>
           <p>Born from pure chance. Sometimes doubles, sometimes vanishes.</p>
-          <p><strong>Color:</strong> Gold</p>
           <p><strong>Personality:</strong> Risky, playful, rare</p>
         </div>
 
         <div class="lore-item" style="border-left-color: #6643a9">
-          <h3><span>🔮</span> DREAMROOT</h3>
+          <h3>DREAMROOT</h3>
           <p>Grows while you rest. Feeds on dreams, ideas, and moonlight.</p>
-          <p><strong>Color:</strong> Purple</p>
           <p><strong>Personality:</strong> Quiet, deep, mysterious</p>
         </div>
 
         <div class="lore-item" style="border-left-color: #f4822a">
-          <h3><span>🔥</span> SPARKLEAF</h3>
+          <h3>SPARKLEAF</h3>
           <p>
             Ignites others with inspiration. Burns fast, but leaves light
             behind.
           </p>
-          <p><strong>Color:</strong> Orange</p>
           <p><strong>Personality:</strong> Intense, creative, short-lived</p>
         </div>
       </div>
@@ -214,17 +208,6 @@
 
     <div class="audio-control" id="audioControl">🔊</div>
     <audio id="bgMusic" loop>
-      <!-- Основной источник -->
-      <source
-        src="https://assets.codepen.io/3364143/pixel-garden.mp3"
-        type="audio/mpeg"
-      />
-      <!-- Альтернативный источник 1 -->
-      <source
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-        type="audio/mpeg"
-      />
-      <!-- Альтернативный источник 2 -->
       <source
         src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
         type="audio/mpeg"
